@@ -85,6 +85,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* *Nav Section */
   .nav-container {
     justify-content: space-between;
   }
@@ -107,5 +108,24 @@
 
   .nav-links {
     display: none;
+  }
+
+  /* *Banner Section */
+  .banner-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-items {
+    margin-right: 0;
+  }
+
+  .banner-container img {
+    width: 100%;
+  }
+
+  .banner-title {
+    font-size: 32px;
   }
 }
