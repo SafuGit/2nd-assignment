@@ -42,10 +42,45 @@
   border: none;
   background-color: #FEA301;
   color: white;
+  font-weight: 600;
+  font-family: inherit;
 }
 
 .nav-link {
   text-decoration: none;
+  font-weight: bold;
+}
+
+/* *Banner Section */
+.banner-container {
+  display: flex;
+  align-items: center;
+  width: 81vw;
+  margin: 0 auto;
+}
+
+.banner-items {
+  margin-right: 50px;
+}
+
+.banner-title {
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.banner-subtitle {
+  margin-bottom: 24px;
+}
+
+.banner-btn button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: inherit;
   font-weight: bold;
 }
 
