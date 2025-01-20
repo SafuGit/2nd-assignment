@@ -8,6 +8,15 @@
   font-style: normal;
 }
 
+
+.orange {
+  color: #FEA301;
+}
+
+.sky-blue {
+  color: #01ACFD;
+}
+
 /* *Nav Section */
 .nav-container {
   display: flex;
@@ -37,4 +46,31 @@
 
 .nav-link {
   text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+
+  .nav-action button {
+    display: none;
+  }
+
+  .nav-action i {
+    display: block !important;
+  }
+
+  #nav-hr {
+    display: block !important;
+  }
+
+  .nav-container h1 {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
 }
