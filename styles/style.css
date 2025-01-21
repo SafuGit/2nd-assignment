@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 /* *Shared Section */
 .quicksand-normal {
@@ -8,6 +14,11 @@
   font-style: normal;
 }
 
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .orange {
   color: #FEA301;
@@ -30,6 +41,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
 }
 
 .nav-container h1 {
@@ -184,6 +196,112 @@
 
 .curriculum-btn button:hover {
   cursor: pointer;
+}
+
+/* *Stories Section */
+.stories {
+  background-image: url('../assets/bg.png'), linear-gradient(white, #fea10181)
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 81vw;
+  margin: 0 auto;
+}
+
+.story-cards {
+  display: flex;
+  gap: 19px;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+
+.main-story {
+  border-radius: 16px;
+  background-color: white;
+  width: 540px;
+  height: 600px;
+}
+
+.story-card {  
+  /* height: 300px; */
+  width: 270px;
+  background-color: white;
+  border-radius: 16px
+}
+
+.main-story-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories-container img {
+  width: 100%;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.main-story-date {
+  margin-left: 38px;
+  border-radius: 47px;
+  background-color: #3CD8E8;
+  width: 150px;
+  padding: 19px;
+  color: white;
+}
+
+.story-date {
+  margin-left: 38px;
+  border-radius: 47px;
+  background-color: #95B226;
+  width: 150px;
+  font-weight: 500;
+  height: 10px;
+  padding: 11px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-position {
+  position: relative;
+  bottom: 24px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.main-story-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-bottom: 32px;
+}
+
+.story-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-bottom: 24px;
+}
+
+.main-story-subtitle {
+  font-weight: 500;
+  color: #666666;
+  font-size: 15px;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-bottom: 32px;
 }
 
 @media only screen and (max-width: 768px) {
