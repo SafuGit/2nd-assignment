@@ -36,6 +36,17 @@
   margin-bottom: 80px;
 }
 
+.btn-primary {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
 /* *Nav Section */
 .nav-container {
   display: flex;
@@ -214,6 +225,7 @@
 .story-cards {
   display: flex;
   gap: 19px;
+  margin-bottom: 80px;
 }
 
 .story-grid {
