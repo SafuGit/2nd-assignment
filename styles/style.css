@@ -132,6 +132,18 @@
   background-image: linear-gradient(#EBDEFB, white, white, white)
 }
 
+#curriculum-a1 {
+  color: #64C8FF;
+}
+
+#curriculum-a2 {
+  color: #F0AA00;
+}
+
+#curriculum-a3 {
+  color: #8700FF;
+}
+
 .curriculum-card-title {
   font-weight: bold;
   font-size: 24px;
