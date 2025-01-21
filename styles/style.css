@@ -476,4 +476,40 @@
     margin-left: 22px;
     margin-right: 22px;
   }
+
+  /* *Footer Section */
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .footer-col1 {
+    margin-left: 20px;
+  }
+
+  .footer-col2 {
+    margin-left: 20px;
+  }
+
+  .footer-socials-container {
+    margin-left: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 22px;
+    margin-top: 65px;
+  }
+
+  .footer-subtitle {
+    margin-bottom: 32px;
+  }
+
+  .footer-social-title {
+    margin-bottom: 36px;
+  }
+
+  .footer-socials {
+    margin-bottom: 0px;
+  }
 }
