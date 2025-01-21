@@ -473,6 +473,7 @@
   }
 
   .story-title {
+    font-weight: bold;
     margin-left: 22px;
     margin-right: 22px;
   }
