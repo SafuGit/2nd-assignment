@@ -108,15 +108,28 @@
 }
 
 .curriculum-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   padding: 20px;
   border-radius: 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  border: 1px solid #F2E8FF;
+  margin-bottom: 80px;
+}
+
+#curriculum-card1 {
+  background-image: linear-gradient(#DCF1FB, white, white, white);
 }
 
 #curriculum-card2 {
-  background-image: linear-gradient(#FAEFD9, white, white);
+  background-image: linear-gradient(#FAEFD9, white, white, white);
+}
+
+#curriculum-card3 {
+  background-image: linear-gradient(#EBDEFB, white, white, white)
 }
 
 .curriculum-card-title {
@@ -132,12 +145,15 @@
   margin-bottom: 32px;
 }
 
-.curriculum-card img {
+.curriculum-card > .curriculum-img img {
   margin-bottom: 32px;
 }
 
 .curriculum-card a {
+  display: inline-block;
   text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 32px;
 }
 
 @media only screen and (max-width: 768px) {
